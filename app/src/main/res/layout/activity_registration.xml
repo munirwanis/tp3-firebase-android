@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wanis.firebasetp3.Activities.RegistrationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Digite seu E-mail"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etCadEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Digite sua Senha"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etCadSenha"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Senha"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Confirme sua Senha"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etCadConfirmarSenha"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Confirmar Senha"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Digite seu Nome"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etCadNome"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
+                android:hint="Nome" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Digite seu Telefone"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etCadTelefone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="(00)0000-0000"
+                android:inputType="phone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Digite seu cellPhone"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etCadCelular"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="(00)00000-0000"
+                android:inputType="phone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Digite seu Cpf"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etCadCpf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="000.000.000-00"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Digite sua Cidade"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etCadCidade"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Cidade" />
+
+
+            <Button
+                android:id="@+id/btnSalvar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Salvar" />
+
+            <Button
+                android:id="@+id/btLimpar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Limpar Campos" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

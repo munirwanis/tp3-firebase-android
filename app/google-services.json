@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "292120040692",
+    "firebase_url": "https://fir-agoravai-29fd4.firebaseio.com",
+    "project_id": "fir-agoravai-29fd4",
+    "storage_bucket": "fir-agoravai-29fd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292120040692:android:24c20be98c8e4543",
+        "android_client_info": {
+          "package_name": "com.wanis.firebasetp3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292120040692-7ml8scv3o19cm1uualnkeem3n7671qui.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wanis.firebasetp3",
+            "certificate_hash": "c1dcaeedf9a769a511c908165088e249c13d3d7f"
+          }
+        },
+        {
+          "client_id": "292120040692-ldtrp4qa4581jj4p2ae19idn3obbn9ip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl8IBL3q8sDBnN7_baHsDiDiwE6NiKJIU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292120040692-ldtrp4qa4581jj4p2ae19idn3obbn9ip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
